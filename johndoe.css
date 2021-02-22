@@ -1,0 +1,313 @@
+body {
+    margin:0;
+    padding: 0;
+    background-color: black;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+main {
+    display: flex;
+    font-family: "ontserrat", sans-serif;
+    margin-right: 15px;
+}
+.navbar {
+    
+    width: 11%;
+    height: auto;
+    position: fixed;
+}
+.navbar img{
+
+    width: 110px;
+    height: 133px;
+    
+}
+.navbar ul{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.navbar li {
+    text-align: center;
+    color: white;
+    padding-top: 31px ;
+    padding-bottom: 31px;
+    
+}
+.navbar ul, li {
+    background-color: #222222;
+
+
+}
+.navbar ul li:nth-child(1){
+    background-color: #000;
+}
+.navbar ul li:nth-child(1):hover{
+    background-color: #ccc;
+}
+
+
+.navbar ul li:hover{
+    background-color: #000;
+}
+.content {
+    
+    width: 89%;
+    padding-left: 11%;
+    
+}
+.content h1, p{
+    color: white;
+    text-align: center;
+   
+    
+}
+.content h1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 64px;
+}
+.content p{
+    font-size: 16px;
+    text-align: center;
+}
+.content img {
+    margin:auto;
+    width: 89%;
+}
+.content1{
+    margin-left: 30px;
+}
+.content1 h1 {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+}
+.content1 hr {
+    width: 180px;
+    opacity: 0.5;
+    color: white;
+    margin-bottom: 30px;
+}
+.content1 p {
+    color: white;
+    opacity: 0.7;
+    text-align: justify;
+}
+.content2 h1 {
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    
+}
+
+.content2 p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    color:grey;
+    opacity: 0.5;
+    text-align: left;
+    
+}
+.content2 {
+    
+    margin-left: 30px;
+    
+}
+
+.progress-bar {
+    height: 30px;
+    background-color:#fff;
+    width: 100%;
+}
+.bar {
+    background-color:#616161;
+        
+    height: 30px;
+
+}
+.bar1{
+    width: 95%;
+
+}
+.bar2{
+    width: 80%;
+}
+
+.bar3{
+    width: 75%;
+}
+.content1, .content2{
+    margin-left: 30px;
+}
+
+.content3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: silver;
+}
+.content3 p {
+    text-align: center;
+    color: black;
+   
+}
+.btn1 {
+    width: 170px;
+    height: 50px;
+    background-color: silver;
+    color: black;
+    text-align:center;
+    margin-top: 20px;
+
+}
+.tbl1 {
+    background-color: rgb(192, 191, 191);
+    width: 420px;
+    
+
+   
+}
+.tbl1, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+.tbl1 th,td {
+      text-align: center;
+      padding: 20px;
+  }
+  .tbl2 {
+    background-color: rgb(192, 191, 191);
+    width: 420px;
+    margin-left: 15px;
+    
+   
+}
+.tbl2, th, td {
+    border: 1px solid rgb(156, 155, 155);
+    border-collapse: collapse;
+  }
+
+.tbl2 th,td {
+      text-align: center;
+      padding: 20px;
+  }
+  .tbls {
+      display: flex;
+    
+      
+    
+  }
+  th {
+      height: 60px;
+      background-color: #616161!important;
+      color: #ddd;
+  }
+  button {
+      width: 100px;
+      height:40px;
+      text-align:center;
+      border:solid 1px rgb(192, 191, 191);
+  }
+
+  .big {
+      font-size: 25px;
+  }
+  .rpt1 {
+      display:flex;
+  }
+  .rpt1 img {
+      border-radius: 50%;
+      width: 100px;
+      height:100px;
+      margin:10px;
+
+  }
+  .content5 h1{
+      font-size: 25px;
+      
+  }
+  .content6 h1 {
+      margin-top:60px;
+      margin-bottom: 30px;
+  }
+  .content6 hr {
+      width: 180px;
+      margin-bottom: 20px;
+      opacity: 0.7;
+  }
+  .pics {
+    display: flex;
+}
+  
+  
+  .pic1, .pic2 {
+      width: 480px; 
+  }
+  .pic1 img {
+      width: 420px;
+      margin-bottom: 7px;
+  }
+  .pic2 img {
+      width: 420px;
+      margin-bottom: 7px;
+  }
+  
+  
+  .contact {
+      margin-top: 70px;
+  }
+  .contact h1 {
+      font-size:25px;
+  }
+  .contact hr {
+      width: 180px;
+      
+      opacity:0.7;
+  }
+  .contact p {
+      padding: 20px 0;
+      color:white;
+  }
+  .contact1 {
+      margin-top:10px;
+  }
+  .contact1 input{
+      height: 50px;
+      width:98%;
+      margin-bottom: 13px;
+  }
+input::placeholder {
+    font-size:17px;
+    padding-left: 10px;
+}
+.contact1 button {
+    width:150px;
+}
+.contact1 p {
+    color: white;
+}
+footer a  {
+    text-decoration: none;
+    color:white;
+}
+footer p {
+    color: white;
+}
+footer {
+    margin-top :30px;
+}
+
+  
+
+
